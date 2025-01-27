@@ -44,7 +44,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <div className="border-2 rounded-md border-white flex items-center justify-center text-white mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
           <Countdown date={new Date("2027-03-12T00:00:00")} />
         </div>
-        <h1 className="container flex items-center justify-center text-white mb-3 text-7xl">
+        <h1 className="container flex items-center justify-center text-white mb-4 text-7xl">
         12/03/27</h1>
         <p className="container flex items-center justify-center text-white mb-3 text-xl">
         Save the date! come join us on our special day.</p>
