@@ -1,4 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
+import Couple from "../components/Icons/Couple";
 
 class MyDocument extends Document {
   render() {

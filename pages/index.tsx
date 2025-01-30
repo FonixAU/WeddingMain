@@ -4,13 +4,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
-import Bridge from "../components/Icons/Bridge";
-import Logo from "../components/Icons/Logo";
 import cloudinary from "../utils/cloudinary";
 import getBase64ImageUrl from "../utils/generateBlurPlaceholder";
 import type { ImageProps } from "../utils/types";
 import { useLastViewedPhoto } from "../utils/useLastViewedPhoto";
 import Countdown from "react-countdown"
+// Import SVGs
+import Bridge from "../components/Icons/Bridge";
+import Logo from "../components/Icons/Logo";
+import Cake from "../components/Icons/Cake";
+import Camera from "../components/Icons/Camera";
+import Couple from "../components/Icons/Couple";
+import Gift from "../components/Icons/Gift";
 
 const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   const router = useRouter();
@@ -50,29 +55,82 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         Save the date! come join us on our special day.</p>
         <p className="container flex items-center justify-center text-white mb-3 text-lg">
         This is the official page with all the relevant information regarding our wedding.</p>
-        <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
-          <div className="after:content relative mb-5 flex h-[629px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+        {/* Columns With info */}
+        <div className="container flex items-center justify-center columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4 px-9">
+          <div className="after:content relative mb-5 flex h-[450px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <div className="absolute inset-0 flex items-center justify-center opacity-20">
               <span className="flex max-h-full max-w-full items-center justify-center">
-                <Bridge />
+                <Image
+                src="/wedding.jpg"
+                fill={true}
+                alt="Wedding Venue"
+                />
               </span>
-              <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
+              <span className="absolute left-0 right-0 bottom-0 h-[275px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
-            <Logo />
+            <Couple />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              2022 Event Photos
+              Ceremony
+            </h1>
+            <ul className="list-none max-w-[40ch] text-white/75 sm:max-w-[32ch]">
+              <li>This cool place we booked out</li>
+              <li>1:00PM</li>
+            </ul>
+          </div>
+          <div className="after:content relative mb-5 flex h-[450px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+            <div className="absolute inset-0 flex items-center justify-center opacity-20">
+              <span className="flex max-h-full max-w-full items-center justify-center">
+                <Image
+                src="/reception.webp"
+                fill={true}
+                alt="Wedding Venue"
+                />
+              </span>
+              <span className="absolute left-0 right-0 bottom-0 h-[275px] bg-gradient-to-b from-black/0 via-black to-black"></span>
+            </div>
+            <Cake />
+            <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
+              Reception
+            </h1>
+            <ul className="list-none max-w-[40ch] text-white/75 sm:max-w-[32ch]">
+              <li>This cool place we booked out</li>
+              <li>4:00PM</li>
+            </ul>
+          </div>
+        </div>
+        <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
+          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+            <Camera />
+            <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
+              Photo Gallery
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Our incredible Next.js community got together in San Francisco for
-              our first ever in-person conference!
+            Check out the best moments from the best day of our lives, or add some of your own!
             </p>
             <a
               className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
               href="/gallery"
-              target="_blank"
+              target="_parent"
               rel="noreferrer"
             >
-              Photo Gallery
+              Say Cheese!
+            </a>
+          </div>
+          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+            <Gift />
+            <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
+              Registry
+            </h1>
+            <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
+              Give us a lil' somethin somethin, help us spruce up our home, or contribute to our life together!
+            </p>
+            <a
+              className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
+              href="/registry"
+              target="_parent"
+              rel="noreferrer"
+            >
+              Feeling Generous?
             </a>
           </div>
         </div>
