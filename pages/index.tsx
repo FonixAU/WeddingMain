@@ -27,9 +27,9 @@ const Home: NextPage = () => {
       </Head>
       <main className="mx-auto max-w-[1960px] p-4 text-white">
       <header>
-        <div className="border-2 rounded-md border-white flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
+        {/* <div className="border-2 rounded-md border-white flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
           <Countdown date={new Date("2027-03-12T00:00:00")} />
-        </div>
+        </div> */}
         <h1 className="container flex items-center justify-center mb-4 text-7xl">
         12/03/27</h1>
         <p className="container flex items-center justify-center mb-3 text-xl">
@@ -133,7 +133,7 @@ const Home: NextPage = () => {
             Check out the best moments from the best day of our lives, or add some of your own!
             </p>
             <a
-              className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover: md:mt-4"
+              className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover: md:mt-4 hover:text-white"
               href="/gallery"
               target="_parent"
               rel="noreferrer"
@@ -150,7 +150,7 @@ const Home: NextPage = () => {
               Give us a lil' somethin somethin, help us spruce up our home, or contribute to our life together!
             </p>
             <a
-              className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover: md:mt-4"
+              className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover: md:mt-4 hover:text-white"
               href="/registry"
               target="_parent"
               rel="noreferrer"
