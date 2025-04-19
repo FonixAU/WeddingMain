@@ -10,6 +10,8 @@ import Cake from "../components/Icons/Cake";
 import Camera from "../components/Icons/Camera";
 import Couple from "../components/Icons/Couple";
 import Gift from "../components/Icons/Gift";
+import Groom from "../components/Icons/Groom";
+import Bride from "../components/Icons/Bride";
 
 const Home: NextPage = () => {
   return (
@@ -149,10 +151,10 @@ const Home: NextPage = () => {
       Feel free to contact us if you have any other questions
       <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
       <div>
-      Groom
+      Groom: 0435271341
       </div>
       <div>
-      Bride
+      Bride: 0499220049
       </div>
       </div>
       </footer>
