@@ -25,7 +25,10 @@ module.exports = {
       backgroundPosition: {
         'double-sides': 'left, right',
         'mobile-size': 'top',
-      }
+      },
+      backgroundSize: {
+        'double-sides': '10%, 10%',
+      },
     },
   },
   plugins: [],
