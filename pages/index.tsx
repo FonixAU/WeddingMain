@@ -81,7 +81,8 @@ const Home: NextPage = () => {
         </ul>
       </div>
         {/* Columns With info */}
-        <div className="container flex items-center justify-center columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4 px-9">
+        <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
+          {/* First Item */}
           <div className="after:content relative mb-5 flex h-[450px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-black/10 px-6 pb-16 pt-64 text-center shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <div className="absolute inset-0 flex items-center justify-center opacity-20">
               <span className="flex max-h-full max-w-full items-center justify-center">
@@ -102,6 +103,7 @@ const Home: NextPage = () => {
               <li>1:00PM</li>
             </ul>
           </div>
+          {/* Second Item */}
           <div className="after:content relative mb-5 flex h-[450px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-black/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <div className="absolute inset-0 flex items-center justify-center opacity-20">
               <span className="flex max-h-full max-w-full items-center justify-center">
@@ -123,7 +125,9 @@ const Home: NextPage = () => {
             </ul>
           </div>
         </div>
-        <div className="container flex items-center justify-center columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4 px-9">
+        {/* Column group 2 */}
+        <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
+          {/* Third Item */}
           <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-black/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <Camera />
             <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
@@ -141,6 +145,7 @@ const Home: NextPage = () => {
               Say Cheese!
             </a>
           </div>
+          {/* Fourth Item */}
           <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-black/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <Gift />
             <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
