@@ -83,7 +83,7 @@ const Home: NextPage = () => {
         {/* Column group 1 */}
        <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
           {/* First Item */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129] px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
           <Couple />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               Ceremony
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
             </ul>
           </div>
           {/* Second Item */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129] px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
           <Cake />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               Reception
@@ -108,7 +108,7 @@ const Home: NextPage = () => {
         {/* Column group 2 */}
         <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
           {/* Third Item */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129] px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <Camera />
             <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
               Photo Gallery
@@ -117,7 +117,7 @@ const Home: NextPage = () => {
             Check out the best moments from the best day of our lives, or add some of your own!
             </p>
             <a
-              className="pointer z-10 mt-6 rounded-lg border border-black bg-black px-3 py-2 text-sm font-semibold text-[#F9F6EE] transition hover:bg-[#c8a2c8] hover: md:mt-4 hover:text-[#F9F6EE] hover:border-[#c8a2c8]"
+              className="pointer z-10 mt-6 rounded-lg border border-black bg-black px-3 py-2 text-sm font-semibold text-[#F9F6EE] transition hover:bg-[#b49ccc] hover: md:mt-4 hover:text-[#F9F6EE] hover:border-[#b49ccc]"
               href="/gallery"
               target="_parent"
               rel="noreferrer"
@@ -126,7 +126,7 @@ const Home: NextPage = () => {
             </a>
           </div>
           {/* Fourth Item */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129] px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <Gift />
             <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
               Registry
@@ -135,7 +135,7 @@ const Home: NextPage = () => {
               Give us a lil' somethin somethin, help us spruce up our home, or contribute to our life together!
             </p>
             <a
-              className="pointer z-10 mt-6 rounded-lg border border-black bg-black px-3 py-2 text-sm font-semibold text-[#F9F6EE] transition hover:bg-[#c8a2c8] hover: md:mt-4 hover:text-[#F9F6EE] hover:border-[#c8a2c8]"
+              className="pointer z-10 mt-6 rounded-lg border border-black bg-black px-3 py-2 text-sm font-semibold text-[#F9F6EE] transition hover:bg-[#b49ccc] hover: md:mt-4 hover:text-[#F9F6EE] hover:border-[#b49ccc]"
               href="/registry"
               target="_parent"
               rel="noreferrer"
@@ -145,9 +145,15 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      <footer className="p-6 text-center /80 sm:p-12 bg-[url(/pattern.jpg)] bg-repeat bg-contain">
-      <div className="bg-[#895129] font-bold text-[#F9F6EE] py-4">
+      <footer className="py-3 mx-3 text-center /80 sm:p-12 bg-[#b49ccc] font-bold text-[#F9F6EE]">
       Feel free to contact us if you have any other questions
+      <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
+      <div>
+      Groom
+      </div>
+      <div>
+      Bride
+      </div>
       </div>
       </footer>
     </>

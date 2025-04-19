@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="bg-[#274134] text-[#F9F6EE] font-semibold p-4 flex justify-between items-center">
+    <nav className="bg-[#96aa81] text-[#F9F6EE] font-semibold p-3 flex justify-between items-center">
       <div className="text-2xl font-bold">
         <Link href="/">F+C</Link>
       </div>

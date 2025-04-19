@@ -23,9 +23,8 @@ class MyDocument extends Document {
             name="twitter:description"
             content="See pictures from Next.js Conf and the After Party."
           /> -- This is for twitter cards*/}
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
-        <body className="bg-[#F9F6EE] antialiased">
+        <body className="bg-[#F9F6EE] antialiased bg-[url(/flowersleft.png)] bg-repeat-y">
           <Main />
           <NextScript />
         </body>
