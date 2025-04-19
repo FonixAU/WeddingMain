@@ -11,20 +11,20 @@ export default function Donate() {
     <div>
       <button
         onClick={() => setIsOpen(true)}
-        className="rounded-xl bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs 
+        className="rounded-xl bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-black shadow-xs 
         hover:bg-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       >
         Donate here!
       </button>
 
       {isOpen && (
-       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-       <div className="relative w-auto bg-white rounded-lg overflow-hidden shadow-lg flex flex-col p-2">
+       <div className="fixed inset-0 flex items-center justify-center bg-white bg-opacity-50 z-50">
+       <div className="relative w-auto bg-black rounded-lg overflow-hidden shadow-lg flex flex-col p-2">
          <div className="text-lg font-bold text-indigo-500 mb-4">
           Options
          </div>
          <div className="flex flex-col border-2 rounded-xl border-indigo-500 
-         flex items-center justify-center text-white mb-3 w-fit mx-auto p-2
+         flex items-center justify-center text-black mb-3 w-fit mx-auto p-2
           text-base font-semibold tracking-tight">
          <span className="flex inline-block text-indigo-500">
             Acc Name: Honeymoon
@@ -37,7 +37,7 @@ export default function Donate() {
         </span>
         </div>
         
-         {/* PayPal Logo Centered */}
+         {/* PayPal Logo Centeblack */}
          <div className="flex self-center size-11">
            <PayPal />
          </div>
@@ -55,7 +55,7 @@ export default function Donate() {
          {/* Exit Button */}
          <button
            onClick={() => setIsOpen(false)}
-           className="size-7 absolute top-2 right-2 p-1.5 bg-red-700 rounded-full hover:bg-red-800"
+           className="size-7 absolute top-2 right-2 p-1.5 bg-black-700 rounded-full hover:bg-black-800"
          >
            <Exit />
          </button>

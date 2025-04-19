@@ -30,7 +30,7 @@ const Registry: NextPage = () => {
         </div>
       </div>
       <div className="text-center">
-        <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">Honeymoon</h1>
+        <h1 className="text-5xl font-semibold tracking-tight text-balance text-black sm:text-7xl">Honeymoon</h1>
         <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
         All contributions will go towards funding our first big trip together to relax and start our marriage off on the right foot.</p>
         <div className="mt-10 flex items-center justify-center gap-x-6">
@@ -38,11 +38,11 @@ const Registry: NextPage = () => {
         </div>
         <div className="overflow-hidden h-5 my-8 text-xs flex rounded-xl bg-gray-200">
           <div
-            className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-indigo-500 transition-all duration-500"
+            className="shadow-none flex flex-col text-center blackspace-nowrap text-black justify-center bg-indigo-500 transition-all duration-500"
             style={{ width: `${progress}%` }}
           ></div>
         </div>
-        <div className="border-2 rounded-xl border-indigo-500 flex items-center justify-center text-white mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
+        <div className="border-2 rounded-xl border-indigo-500 flex items-center justify-center text-black mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
         <span className="text-xl font-semibold inline-block text-indigo-500">
             ${raised} / ${goal}
         </span>
@@ -51,7 +51,7 @@ const Registry: NextPage = () => {
     </div>
   </div>
       </main>
-      <footer className="p-6 text-center text-white/80 sm:p-12">
+      <footer className="p-6 text-center text-black/80 sm:p-12">
       Feel free to contact us if you have any other questions
       </footer>
     </>

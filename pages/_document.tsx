@@ -24,7 +24,7 @@ class MyDocument extends Document {
             content="See pictures from Next.js Conf and the After Party."
           /> -- This is for twitter cards*/}
         </Head>
-        <body className="bg-black antialiased">
+        <body className="bg-white antialiased">
           <Main />
           <NextScript />
         </body>

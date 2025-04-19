@@ -27,7 +27,7 @@ export default function SharedModal({
 }: SharedModalProps) {
   const [loaded, setLoaded] = useState(false);
 
-  let filteredImages = images?.filter((img: ImageProps) =>
+  let filteblackImages = images?.filter((img: ImageProps) =>
     range(index - 15, index + 15).includes(img.id),
   );
 
@@ -97,7 +97,7 @@ export default function SharedModal({
                 <>
                   {index > 0 && (
                     <button
-                      className="absolute left-3 top-[calc(50%-16px)] rounded-full bg-black/50 p-3 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white focus:outline-none"
+                      className="absolute left-3 top-[calc(50%-16px)] rounded-full bg-white/50 p-3 text-black/75 backdrop-blur-lg transition hover:bg-white/75 hover:text-black focus:outline-none"
                       style={{ transform: "translate3d(0, 0, 0)" }}
                       onClick={() => changePhotoId(index - 1)}
                     >
@@ -106,7 +106,7 @@ export default function SharedModal({
                   )}
                   {index + 1 < images.length && (
                     <button
-                      className="absolute right-3 top-[calc(50%-16px)] rounded-full bg-black/50 p-3 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white focus:outline-none"
+                      className="absolute right-3 top-[calc(50%-16px)] rounded-full bg-white/50 p-3 text-black/75 backdrop-blur-lg transition hover:bg-white/75 hover:text-black focus:outline-none"
                       style={{ transform: "translate3d(0, 0, 0)" }}
                       onClick={() => changePhotoId(index + 1)}
                     >
@@ -115,11 +115,11 @@ export default function SharedModal({
                   )}
                 </>
               )}
-              <div className="absolute top-0 right-0 flex items-center gap-2 p-3 text-white">
+              <div className="absolute top-0 right-0 flex items-center gap-2 p-3 text-black">
                 {navigation ? (
                   <a
                     href={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/${currentImage.public_id}.${currentImage.format}`}
-                    className="rounded-full bg-black/50 p-2 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white"
+                    className="rounded-full bg-white/50 p-2 text-black/75 backdrop-blur-lg transition hover:bg-white/75 hover:text-black"
                     target="_blank"
                     title="Open fullsize version"
                     rel="noreferrer"
@@ -129,7 +129,7 @@ export default function SharedModal({
                 ) : (
                   <a
                     href={`https://twitter.com/intent/tweet?text=Check%20out%20this%20pic%20from%20Next.js%20Conf!%0A%0Ahttps://nextjsconf-pics.vercel.app/p/${index}`}
-                    className="rounded-full bg-black/50 p-2 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white"
+                    className="rounded-full bg-white/50 p-2 text-black/75 backdrop-blur-lg transition hover:bg-white/75 hover:text-black"
                     target="_blank"
                     title="Open fullsize version"
                     rel="noreferrer"
@@ -144,16 +144,16 @@ export default function SharedModal({
                       `${index}.jpg`,
                     )
                   }
-                  className="rounded-full bg-black/50 p-2 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white"
+                  className="rounded-full bg-white/50 p-2 text-black/75 backdrop-blur-lg transition hover:bg-white/75 hover:text-black"
                   title="Download fullsize version"
                 >
                   <ArrowDownTrayIcon className="h-5 w-5" />
                 </button>
               </div>
-              <div className="absolute top-0 left-0 flex items-center gap-2 p-3 text-white">
+              <div className="absolute top-0 left-0 flex items-center gap-2 p-3 text-black">
                 <button
                   onClick={() => closeModal()}
-                  className="rounded-full bg-black/50 p-2 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white"
+                  className="rounded-full bg-white/50 p-2 text-black/75 backdrop-blur-lg transition hover:bg-white/75 hover:text-black"
                 >
                   {navigation ? (
                     <XMarkIcon className="h-5 w-5" />
@@ -166,13 +166,13 @@ export default function SharedModal({
           )}
           {/* Bottom Nav bar */}
           {navigation && (
-            <div className="fixed inset-x-0 bottom-0 z-40 overflow-hidden bg-gradient-to-b from-black/0 to-black/60">
+            <div className="fixed inset-x-0 bottom-0 z-40 overflow-hidden bg-gradient-to-b from-white/0 to-white/60">
               <motion.div
                 initial={false}
                 className="mx-auto mt-6 mb-6 flex aspect-[3/2] h-14"
               >
                 <AnimatePresence initial={false}>
-                  {filteredImages.map(({ public_id, format, id }) => (
+                  {filteblackImages.map(({ public_id, format, id }) => (
                     <motion.button
                       initial={{
                         width: "0%",
@@ -188,7 +188,7 @@ export default function SharedModal({
                       key={id}
                       className={`${
                         id === index
-                          ? "z-20 rounded-md shadow shadow-black/50"
+                          ? "z-20 rounded-md shadow shadow-white/50"
                           : "z-10"
                       } ${id === 0 ? "rounded-l-md" : ""} ${
                         id === images.length - 1 ? "rounded-r-md" : ""

@@ -53,11 +53,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         {/* This makes the page responsive */}
         <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
           {/* Whole Non-image card style, the height was adjusted manually to set the max viewport. */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-black/10 px-6 pb-16 pt-64 text-center text-black shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               Grantiz Wedding Photos
             </h1>
-            <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
+            <p className="max-w-[40ch] text-black/75 sm:max-w-[32ch]">
               Thank you for attending our wedding. Add your favourite moments here, and look through
               the pics other guests have added
             </p>
@@ -90,7 +90,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           ))}
         </div>
       </main>
-      <footer className="p-6 text-center text-white/80 sm:p-12">
+      <footer className="p-6 text-center text-black/80 sm:p-12">
         Thank you to everyone who attended and contributed to the gallery for the photos,
         and for sharing this special moment with us.
       </footer>

@@ -25,9 +25,9 @@ const Home: NextPage = () => {
           content="https://nextjsconf-pics.vercel.app/og-image.png"
         />
       </Head>
-      <main className="mx-auto max-w-[1960px] p-4 text-white">
+      <main className="mx-auto max-w-[1960px] p-4 text-black">
       <header>
-        {/* <div className="border-2 rounded-md border-white flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
+        {/* <div className="border-2 rounded-md border-black flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
           <Countdown date={new Date("2027-03-12T00:00:00")} />
         </div> */}
         <h1 className="container flex items-center justify-center mb-4 text-7xl">
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
       <div className="container flex justify-center">
       <ul className="mb-3 text-lg">
         <li className="container flex justify-center mt-4">
-        <div className="border-2 rounded-md border-white flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
+        <div className="border-2 rounded-md border-black flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
         Dress Code
         </div>
         </li>
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
         Formal & Classy
         </li>
         <li className="container flex justify-center mt-7">
-        <div className="border-2 rounded-md border-white flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
+        <div className="border-2 rounded-md border-black flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
           Food Options
         </div>
         </li>
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
           <ul className="column list-disc  mb-3 text-lg ps-5">
           <li>Charlotte's Choice
           <ul className="list-disc  mb-3 text-lg ps-5">
-          <li>Entre: Charred Corn
+          <li>Entre: Charblack Corn
           </li>
           <li>Main: Vego Nibbles
           </li>
@@ -82,7 +82,7 @@ const Home: NextPage = () => {
       </div>
         {/* Columns With info */}
         <div className="container flex items-center justify-center columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4 px-9">
-          <div className="after:content relative mb-5 flex h-[450px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex h-[450px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-black/10 px-6 pb-16 pt-64 text-center shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <div className="absolute inset-0 flex items-center justify-center opacity-20">
               <span className="flex max-h-full max-w-full items-center justify-center">
                 <Image
@@ -91,7 +91,7 @@ const Home: NextPage = () => {
                 alt="Wedding Venue"
                 />
               </span>
-              <span className="absolute left-0 right-0 bottom-0 h-[275px] bg-gradient-to-b from-black/0 via-black to-black"></span>
+              <span className="absolute left-0 right-0 bottom-0 h-[275px] bg-gradient-to-b from-white/0 via-white to-white"></span>
             </div>
             <Couple />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
@@ -102,7 +102,7 @@ const Home: NextPage = () => {
               <li>1:00PM</li>
             </ul>
           </div>
-          <div className="after:content relative mb-5 flex h-[450px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex h-[450px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-black/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <div className="absolute inset-0 flex items-center justify-center opacity-20">
               <span className="flex max-h-full max-w-full items-center justify-center">
                 <Image
@@ -111,7 +111,7 @@ const Home: NextPage = () => {
                 alt="Wedding Venue"
                 />
               </span>
-              <span className="absolute left-0 right-0 bottom-0 h-[275px] bg-gradient-to-b from-black/0 via-black to-black"></span>
+              <span className="absolute left-0 right-0 bottom-0 h-[275px] bg-gradient-to-b from-white/0 via-white to-white"></span>
             </div>
             <Cake />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
@@ -124,7 +124,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="container flex items-center justify-center columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4 px-9">
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-black/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <Camera />
             <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
               Photo Gallery
@@ -133,7 +133,7 @@ const Home: NextPage = () => {
             Check out the best moments from the best day of our lives, or add some of your own!
             </p>
             <a
-              className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover: md:mt-4 hover:text-white"
+              className="pointer z-10 mt-6 rounded-lg border border-black bg-black px-3 py-2 text-sm font-semibold text-white transition hover:bg-black/10 hover: md:mt-4 hover:text-black"
               href="/gallery"
               target="_parent"
               rel="noreferrer"
@@ -141,7 +141,7 @@ const Home: NextPage = () => {
               Say Cheese!
             </a>
           </div>
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-black/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <Gift />
             <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
               Registry
@@ -150,7 +150,7 @@ const Home: NextPage = () => {
               Give us a lil' somethin somethin, help us spruce up our home, or contribute to our life together!
             </p>
             <a
-              className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover: md:mt-4 hover:text-white"
+              className="pointer z-10 mt-6 rounded-lg border border-black bg-black px-3 py-2 text-sm font-semibold text-white transition hover:bg-black/10 hover: md:mt-4 hover:text-black"
               href="/registry"
               target="_parent"
               rel="noreferrer"
