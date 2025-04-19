@@ -36,7 +36,8 @@ const Registry: NextPage = () => {
         <div className="mt-10 flex items-center justify-center gap-x-6">
           <Donate/>
         </div>
-        <div className="overflow-hidden h-5 my-8 text-xs flex rounded-xl bg-gray-200">
+        {/* RIP My progress bar */}
+        {/* <div className="overflow-hidden h-5 my-8 text-xs flex rounded-xl bg-gray-200">
           <div
             className="shadow-none flex flex-col text-center blackspace-nowrap text-black justify-center bg-indigo-500 transition-all duration-500"
             style={{ width: `${progress}%` }}
@@ -46,7 +47,7 @@ const Registry: NextPage = () => {
         <span className="text-xl font-semibold inline-block text-indigo-500">
             ${raised} / ${goal}
         </span>
-        </div>
+        </div> */}
       </div>
     </div>
   </div>
