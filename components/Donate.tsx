@@ -18,7 +18,7 @@ export default function Donate() {
       </button>
 
       {isOpen && (
-       <div className="fixed inset-0 flex items-center justify-center bg-white bg-opacity-50 z-50">
+       <div className="fixed inset-0 flex items-center justify-center bg-[#F9F6EE] bg-opacity-50 z-50">
        <div className="relative w-auto bg-black rounded-lg overflow-hidden shadow-lg flex flex-col p-2">
          <div className="text-lg font-bold text-indigo-500 mb-4">
           Options

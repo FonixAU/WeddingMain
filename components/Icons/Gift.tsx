@@ -1,6 +1,6 @@
 export default function Gift() {
     return (
-<svg fill="#fff" width="800px" height="800px" viewBox="0 0 512 512" version="1.1" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+<svg fill="#c8a2c8" width="800px" height="800px" viewBox="0 0 512 512" version="1.1" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 
 <g id="gift_box-box_open-heart-love-valentine">
 

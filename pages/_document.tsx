@@ -25,7 +25,7 @@ class MyDocument extends Document {
           /> -- This is for twitter cards*/}
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
-        <body className="bg-white antialiased">
+        <body className="bg-[#F9F6EE] antialiased">
           <Main />
           <NextScript />
         </body>
