@@ -18,6 +18,14 @@ module.exports = {
         wide: { raw: "(min-aspect-ratio: 3 / 2)" },
         "taller-than-854": { raw: "(min-height: 854px)" },
       },
+      backgroundImage: {
+        'double-sides': `url('/flowersleft.png'), url('/flowersright.png')`,
+        'mobile-size': `url('/flowerstop.png')`,
+      },
+      backgroundPosition: {
+        'double-sides': 'left, right',
+        'mobile-size': 'top',
+      }
     },
   },
   plugins: [],

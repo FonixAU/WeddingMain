@@ -10,8 +10,8 @@ import Cake from "../components/Icons/Cake";
 import Camera from "../components/Icons/Camera";
 import Couple from "../components/Icons/Couple";
 import Gift from "../components/Icons/Gift";
-import Groom from "../components/Icons/Groom";
-import Bride from "../components/Icons/Bride";
+// import Groom from "../components/Icons/Groom";
+// import Bride from "../components/Icons/Bride";
 
 const Home: NextPage = () => {
   return (
@@ -147,7 +147,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      <footer className="py-3 mx-3 text-center /80 sm:p-12 bg-[#b49ccc] font-bold text-[#F9F6EE]">
+      <footer className="p-3 m-4 text-center /80 sm:p-12 bg-[#b49ccc] font-bold text-[#F9F6EE]">
       Feel free to contact us if you have any other questions
       <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
       <div>
