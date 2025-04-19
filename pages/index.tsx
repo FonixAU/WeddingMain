@@ -129,7 +129,7 @@ const Home: NextPage = () => {
           </div>
           {/* Fourth Item */}
           <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <Gift />
+            <Gift/>
             <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
               Registry
             </h1>

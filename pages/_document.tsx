@@ -17,7 +17,7 @@ class MyDocument extends Document {
             content="See the details & photos from our wedding :)."
           />
           <meta property="og:title" content="The Grantiz Wedding" />
-          
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Head>
         <body className="bg-[#F9F6EE] bg-mobile-size bg-no-repeat bg-contain antialiased md:bg-double-sides md:bg-repeat-y">
           <Main />
