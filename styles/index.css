@@ -1,14 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+@supports (-webkit-appearance: none) {
+  img[loading="lazy"] {
+    clip-path: inset(0.6px);
+  }
+}
 * {
   font-family: "Bodoni Moda", serif;
   font-optical-sizing: auto;
 }
-@supports (font: -apple-system-body) and (-webkit-appearance: none) {
-  img[loading="lazy"] {
-    clip-path: inset(0.6px);
-  }
+.primary{
+  background-color:#F9F6EE;
+}
+.secondary{
+  background-color:#b49ccc;
+  color: #F9F6EE;
+}
+.clabel{
+  text-decoration: underline;
+  font-style: italic;
+  font-weight:600
 }
 

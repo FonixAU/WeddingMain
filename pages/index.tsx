@@ -1,17 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import cloudinary from "../utils/cloudinary";
 import getBase64ImageUrl from "../utils/generateBlurPlaceholder";
 import type { ImageProps } from "../utils/types";
-import Countdown from "react-countdown"
-// Import SVGs
-import Cake from "../components/Icons/Cake";
-import Camera from "../components/Icons/Camera";
-import Couple from "../components/Icons/Couple";
-import Gift from "../components/Icons/Gift";
-// import Groom from "../components/Icons/Groom";
-// import Bride from "../components/Icons/Bride";
 
 const Home: NextPage = () => {
   return (
@@ -29,10 +20,7 @@ const Home: NextPage = () => {
       </Head>
       <main className="mx-auto max-w-[1960px] p-4 text-black">
       <header>
-        {/* <div className="border-2 rounded-md border-black flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
-          <Countdown date={new Date("2027-03-12T00:00:00")} />
-        </div> */}
-        <h1 className="container flex items-center justify-center mb-4 text-7xl">
+        <h1 className="container flex items-center justify-center my-4 text-7xl">
         08/03/27</h1>
         <p className="container flex items-center justify-center mb-3 text-xl">
         Save the date! come join us on our special day.</p>
@@ -42,7 +30,7 @@ const Home: NextPage = () => {
       <div className="container flex justify-center">
       <ul className="mb-3 text-lg">
         <li className="container flex justify-center mt-4">
-        <div className="border-2 rounded-md border-black flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
+        <div className="clabel rounded-md flex items-center justify-center mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
         Dress Code
         </div>
         </li>
@@ -50,11 +38,16 @@ const Home: NextPage = () => {
         Formal & Classy
         </li>
         <li className="container flex justify-center mt-7">
-        <div className="border-2 rounded-md border-black flex items-center justify-center  mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
-          Food Options
+        <div className="clabel rounded-md flex items-center justify-center mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
+          Child Free Wedding
         </div>
         </li>
-        <li className="columns-2 mt-2">
+        <li className="container flex justify-center">
+        We want all our guests to enjoy a stress free night, with countless drinks and unforgettable fun.
+        And we believe an 18+ event will be best way to guarantee this outcome.
+        </li>
+        {/* Food Options List */}
+        {/* <li className="columns-2 mt-2">
           <ul className="column list-disc  mb-3 text-lg ps-5">
           <li>Felipe's Choice
           <ul className="list-disc  mb-3 text-lg ps-5">
@@ -79,14 +72,13 @@ const Home: NextPage = () => {
           </ul>
           </li>
           </ul>
-        </li>
+        </li> */}
         </ul>
       </div>
         {/* Column group 1 */}
        <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
           {/* First Item */}
           <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-          <Couple />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               Ceremony
             </h1>
@@ -97,7 +89,6 @@ const Home: NextPage = () => {
           </div>
           {/* Second Item */}
           <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-          <Cake />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               Reception
             </h1>
@@ -111,7 +102,6 @@ const Home: NextPage = () => {
         <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
           {/* Third Item */}
           <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <Camera />
             <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
               Photo Gallery
             </h1>
@@ -128,8 +118,9 @@ const Home: NextPage = () => {
             </a>
           </div>
           {/* Fourth Item */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <Gift/>
+          <div className="after:content relative mb-5 flex 
+          h-[400px] flex-col items-center justify-end 
+          gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
               Registry
             </h1>
