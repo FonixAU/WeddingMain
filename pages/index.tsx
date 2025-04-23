@@ -34,7 +34,8 @@ const Home: NextPage = () => {
         Dress Code
         </div>
         </li>
-        <li className="container flex justify-center">
+        <li className="
+        container flex justify-center">
         Formal & Classy
         </li>
         <li className="container flex justify-center mt-7">
