@@ -18,18 +18,19 @@ const Home: NextPage = () => {
           content="https://nextjsconf-pics.vercel.app/og-image.png"
         />
       </Head>
-      <main className="mx-auto max-w-[1960px] p-4 text-black">
+      <main className="mx-auto max-w-[1960px] pt-4">
       <header>
+      <p className="container flex items-center justify-center my-3 title">
+      Save the date!</p>
         <h1 className="container flex items-center justify-center my-4 text-7xl">
         08/03/27</h1>
-        <p className="container flex items-center justify-center mb-3 text-xl">
-        Save the date! come join us on our special day.</p>
+        
         <p className="container flex items-center justify-center mb-3 text-lg">
         This is the official page with all the relevant information regarding our wedding.</p>
       </header>
       <div className="container flex justify-center">
       <ul className="mb-3 text-lg">
-        <li className="container flex justify-center mt-4">
+        <li className="container justify-center mt-4">
         <div className="clabel rounded-md flex items-center justify-center mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
         Dress Code
         </div>
@@ -38,6 +39,8 @@ const Home: NextPage = () => {
         container flex justify-center">
         Formal & Classy
         </li>
+      </ul>
+      <ul className="">
         <li className="container flex justify-center mt-7">
         <div className="clabel rounded-md flex items-center justify-center mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
           Child Free Wedding
