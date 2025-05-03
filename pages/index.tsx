@@ -20,65 +20,41 @@ const Home: NextPage = () => {
       </Head>
       <main className="mx-auto max-w-[1960px] pt-4">
       <header>
-      <p className="container flex items-center justify-center my-3 title">
+      <p className="container flex items-center justify-center mt-5 title">
       Save the date!</p>
-        <h1 className="container flex items-center justify-center my-4 text-7xl">
+        <h1 className="container flex items-center justify-center my-4 title text-7xl">
         08/03/27</h1>
         
-        <p className="container flex items-center justify-center mb-3 text-lg">
+        <p className="container flex items-center justify-center mb-3 subtitle">
         This is the official page with all the relevant information regarding our wedding.</p>
       </header>
-      <div className="container flex justify-center">
-      <ul className="mb-3 text-lg">
-        <li className="container justify-center mt-4">
-        <div className="clabel rounded-md flex items-center justify-center mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
-        Dress Code
+      <section className="hero is-small">
+        <div className="hero-head ml-12 mt-5">
+          <p className="title clabel">Dress Code</p>
+          <p className="subtitle">Formal & Classy</p>
         </div>
-        </li>
-        <li className="
-        container flex justify-center">
-        Formal & Classy
-        </li>
-      </ul>
-      <ul className="">
-        <li className="container flex justify-center mt-7">
-        <div className="clabel rounded-md flex items-center justify-center mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
-          Child Free Wedding
+        <div className="hero-body">
+        <div className="columns is-3 has-text-centered is-centered">
+          <div className="column subtitle is-6">
+          Example
+          </div>
+          <div className="column subtitle is-6">
+          Example
+          </div>
         </div>
-        </li>
-        <li className="container flex justify-center">
-        We want all our guests to enjoy a stress free night, with countless drinks and unforgettable fun.
-        And we believe an 18+ event will be best way to guarantee this outcome.
-        </li>
-        {/* Food Options List */}
-        {/* <li className="columns-2 mt-2">
-          <ul className="column list-disc  mb-3 text-lg ps-5">
-          <li>Felipe's Choice
-          <ul className="list-disc  mb-3 text-lg ps-5">
-          <li>Entre: Oyster
-          </li>
-          <li>Main: Some sick as food
-          </li>
-          <li>Desert: Torta Alemã
-          </li>
-          </ul>
-          </li>
-          </ul>
-          <ul className="column list-disc  mb-3 text-lg ps-5">
-          <li>Charlotte's Choice
-          <ul className="list-disc  mb-3 text-lg ps-5">
-          <li>Entre: Charblack Corn
-          </li>
-          <li>Main: Vego Nibbles
-          </li>
-          <li>Desert: Candy
-          </li>
-          </ul>
-          </li>
-          </ul>
-        </li> */}
-        </ul>
-      </div>
+        </div>
+      </section>
+      <section className="hero is-small">
+        <div className="hero-head ml-12 mt-5">
+          <p className="title clabel">Child Free</p>
+          <p className="subtitle">
+            No distraction from what we're
+            truly doing this for.
+            <p className="has-text-weight-bold text-[#b40ccc]">Getting wasted.</p>
+          </p>
+        </div>
+      </section>
+      <section className="my-12"/>
         {/* Column group 1 */}
        <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
           {/* First Item */}
@@ -141,18 +117,19 @@ const Home: NextPage = () => {
             </a>
           </div>
         </div>
+      <section className="hero bg-[#b49ccc] font-bold text-[#F9F6EE]">
+        <div className="hero-body">
+          <p className="title">Any questions?</p>
+          <p className="subtitle">
+          <span className="icon">
+            <i className="fas fa-arrow-right"></i>
+          </span>: 0499220049
+            <br/>
+            G: 0435271341
+          </p>
+        </div>
+      </section>
       </main>
-      <footer className="p-3 m-4 text-center /80 sm:p-12 bg-[#b49ccc] font-bold text-[#F9F6EE]">
-      Feel free to contact us if you have any other questions
-      <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
-      <div>
-      Groom: 0435271341
-      </div>
-      <div>
-      Bride: 0499220049
-      </div>
-      </div>
-      </footer>
     </>
   );
 };
