@@ -21,6 +21,7 @@ class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet"/>
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"/>
+          <script src="https://kit.fontawesome.com/d11b5064a9.js"></script>
         </Head>
         <body className="has-text-black theme-light	bg-[#F9F6EE] bg-mobile-size bg-no-repeat bg-contain antialiased md:bg-double-sides md:bg-repeat-y">
           <Main />

@@ -50,7 +50,9 @@ const Home: NextPage = () => {
           <p className="subtitle">
             No distraction from what we're
             truly doing this for.
-            <p className="has-text-weight-bold text-[#b40ccc]">Getting wasted.</p>
+            <p className="has-text-weight-bold text-[#b40ccc]">
+              Getting wasted.
+            </p>
           </p>
         </div>
       </section>
@@ -122,10 +124,12 @@ const Home: NextPage = () => {
           <p className="title">Any questions?</p>
           <p className="subtitle">
           <span className="icon">
-            <i className="fas fa-arrow-right"></i>
+            <i className="fas fa-crown"></i>
           </span>: 0499220049
             <br/>
-            G: 0435271341
+          <span className="icon">
+            <i className="fas fa-user-tie"></i>
+          </span>: 0435271341
           </p>
         </div>
       </section>
