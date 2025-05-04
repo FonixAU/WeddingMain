@@ -31,8 +31,13 @@ const Home: NextPage = () => {
       <section className="hero is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Dress Code</p>
-          <p className="subtitle">Formal/Classy/Vibrant
-          <br/>Formal|Classy|Vibrant
+          <p className="subtitle">Formal
+            <span className="
+            is-family-monospace
+            has-text-weight-bold">|</span>Classy
+            <span className="
+            is-family-monospace
+            has-text-weight-bold">|</span>Vibrant
           </p>
         </div>
         <div className="hero-body">
@@ -115,20 +120,6 @@ const Home: NextPage = () => {
             </a>
           </div>
         </div>
-      <section className="hero bg-[#b49ccc] font-bold text-[#F9F6EE]">
-        <div className="hero-body">
-          <p className="title">Any questions?</p>
-          <p className="subtitle">
-          <span className="icon">
-            <i className="fas fa-crown"></i>
-          </span>: 0499220049
-            <br/>
-          <span className="icon">
-            <i className="fas fa-user-tie"></i>
-          </span>: 0435271341
-          </p>
-        </div>
-      </section>
       </main>
     </>
   );

@@ -22,4 +22,8 @@
   font-style: italic;
   /* font-weight:600 */
 }
+.footer-extra{
+  max-width: 370px;
+  margin: 0 auto;
+}
 
