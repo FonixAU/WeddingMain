@@ -29,30 +29,26 @@ const Home: NextPage = () => {
         This is the official page with all the relevant information regarding our wedding.</p>
       </header>
       <section className="hero is-small">
-        <div className="hero-head ml-12 mt-5">
+        <div className="hero-body has-text-centered">
           <p className="title clabel">Dress Code</p>
-          <p className="subtitle">Formal & Classy</p>
+          <p className="subtitle">Formal/Classy/Vibrant
+          <br/>Formal|Classy|Vibrant
+          </p>
         </div>
         <div className="hero-body">
         <div className="columns is-3 has-text-centered is-centered">
-          <div className="column subtitle is-6">
-          Example
-          </div>
-          <div className="column subtitle is-6">
-          Example
-          </div>
         </div>
         </div>
       </section>
       <section className="hero is-small">
-        <div className="hero-head ml-12 mt-5">
+        <div className="hero-body has-text-centered">
           <p className="title clabel">Child Free</p>
           <p className="subtitle">
             No distraction from what we're
-            truly doing this for.
-            <p className="has-text-weight-bold text-[#b40ccc]">
+            truly doing this for.<br/>
+            <span className="has-text-weight-bold text-[#b49ccc]">
               Getting wasted.
-            </p>
+            </span>
           </p>
         </div>
       </section>
