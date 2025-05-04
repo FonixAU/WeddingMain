@@ -40,10 +40,6 @@ const Home: NextPage = () => {
             has-text-weight-bold">|</span>Vibrant
           </p>
         </div>
-        <div className="hero-body">
-        <div className="columns is-3 has-text-centered is-centered">
-        </div>
-        </div>
       </section>
       <section className="hero is-small">
         <div className="hero-body has-text-centered">
