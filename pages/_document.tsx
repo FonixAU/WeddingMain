@@ -34,11 +34,11 @@ class MyDocument extends Document {
                       <p className="subtitle text-[#F9F6EE]">
                       <span className="icon">
                         <i className="fas fa-crown"></i>
-                      </span>: 0499220049
+                      </span> 0499220049
                         <br/>
                       <span className="icon">
                         <i className="fas fa-user-tie"></i>
-                      </span>: 0435271341
+                      </span> 0435271341
                       </p>
                     </div> 
                   </div>

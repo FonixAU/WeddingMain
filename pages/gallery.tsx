@@ -90,11 +90,9 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           ))}
         </div>
       </main>
-      <footer className="p-6 text-center /80 sm:p-12 bg-[url(/pattern.jpg)] bg-repeat bg-contain">
-      <div className="bg-[#895129] font-bold text-[#e3dac9] py-4">
-      Thank you to everyone who attended and contributed to the gallery for the photos,
+      <footer className="p-6 subtitle text-center /80 sm:p-12">
+      Thank you to everyone who attended and contributed to the gallery with photos,
       and for sharing this special moment with us.
-      </div>
       </footer>
     </>
   );
