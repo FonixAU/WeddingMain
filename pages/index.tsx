@@ -28,6 +28,8 @@ const Home: NextPage = () => {
         <p className="container flex items-center justify-center mb-3 subtitle">
         This is the official page with all the relevant information regarding our wedding.</p>
       </header>
+      
+      <section className="my-12"/>
       <section className="hero is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Dress Code</p>
@@ -41,7 +43,8 @@ const Home: NextPage = () => {
           </p>
         </div>
       </section>
-      <section className="hero is-small">
+      <section className="my-12"/>
+      <section className="hero bg-[#895129]/10 rounded-lg is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Child Free</p>
           <p className="subtitle">
@@ -54,68 +57,28 @@ const Home: NextPage = () => {
         </div>
       </section>
       <section className="my-12"/>
-        {/* Column group 1 */}
-       <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
-          {/* First Item */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              Ceremony
-            </h1>
-            <ul className="list-none max-w-[40ch] /75 sm:max-w-[32ch]">
-              <li>This cool place we booked out</li>
-              <li>1:00PM</li>
-            </ul>
-          </div>
-          {/* Second Item */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              Reception
-            </h1>
-            <ul className="list-none max-w-[40ch] /75 sm:max-w-[32ch]">
-              <li>This cool place we booked out</li>
-              <li>4:00PM</li>
-            </ul>
-          </div>
+        <section className="hero is-small">
+        <div className="hero-body has-text-centered">
+          <p className="title clabel">Ceremony</p>
+          <p className="subtitle">
+            1:00PM<br/>
+            <span className="has-text-weight-bold text-[#b49ccc]">
+              Venue Information
+            </span>
+          </p>
         </div>
-        {/* Column group 2 */}
-        <div className="container flex flex-col sm:flex-row items-center justify-center gap-4 px-9">
-          {/* Third Item */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
-              Photo Gallery
-            </h1>
-            <p className="max-w-[40ch] /75 sm:max-w-[32ch]">
-            Check out the best moments from the best day of our lives, or add some of your own!
-            </p>
-            <a
-              className="pointer z-10 mt-6 rounded-lg border border-black bg-black px-3 py-2 text-sm font-semibold text-[#F9F6EE] transition hover:bg-[#b49ccc] hover: md:mt-4 hover:text-[#F9F6EE] hover:border-[#b49ccc]"
-              href="/gallery"
-              target="_parent"
-              rel="noreferrer"
-            >
-              Say Cheese!
-            </a>
-          </div>
-          {/* Fourth Item */}
-          <div className="after:content relative mb-5 flex 
-          h-[400px] flex-col items-center justify-end 
-          gap-4 overflow-hidden rounded-lg bg-[#895129]/10 px-6 pb-16 pt-64 text-center  shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <h1 className="mt-4 mb-4 text-base font-bold uppercase tracking-widest">
-              Registry
-            </h1>
-            <p className="max-w-[40ch] /75 sm:max-w-[32ch]">
-              Give us a lil' somethin somethin, help us spruce up our home, or contribute to our life together!
-            </p>
-            <a
-              className="pointer z-10 mt-6 rounded-lg border border-black bg-black px-3 py-2 text-sm font-semibold text-[#F9F6EE] transition hover:bg-[#b49ccc] hover: md:mt-4 hover:text-[#F9F6EE] hover:border-[#b49ccc]"
-              href="/registry"
-              target="_parent"
-              rel="noreferrer"
-            >
-              Feeling Generous?
-            </a>
-          </div>
+      </section>
+        <section className="hero is-small">
+        <div className="hero-body has-text-centered">
+          <p className="title clabel">Reception</p>
+          <p className="subtitle">
+            4:00PM<br/>
+            <span className="has-text-weight-bold text-[#b49ccc]">
+              Venue Information
+            </span>
+          </p>
         </div>
+      </section>
       </main>
     </>
   );
