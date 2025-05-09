@@ -43,7 +43,7 @@ const Home: NextPage = () => {
           </p>
         </div>
       </section>
-      <section className="hero bg-[#895129]/10 rounded-lg is-small">
+      <section className="hero my-1 bg-[#895129]/10 rounded-lg is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Child Free</p>
           <p className="subtitle">
@@ -55,7 +55,6 @@ const Home: NextPage = () => {
           </p>
         </div>
       </section>
-      <section className="my-12"/>
         <section className="hero is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Ceremony</p>
@@ -67,7 +66,7 @@ const Home: NextPage = () => {
           </p>
         </div>
       </section>
-        <section className="hero bg-[#895129]/10 rounded-lg is-small">
+        <section className="hero my-1 bg-[#895129]/10 rounded-lg is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Reception</p>
           <p className="subtitle">

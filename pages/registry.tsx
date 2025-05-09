@@ -19,42 +19,30 @@ const Registry: NextPage = () => {
           content="https://nextjsconf-pics.vercel.app/og-image.png"
         />
       </Head>
-      <main className="mx-auto max-w-[1960px]">
-      <div className="relative isolate px-6 lg:px-8">
-    <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-    </div>
-    <div className="mx-auto max-w-2xl py-6 sm:py-12 lg:py-18">
-      <div className="sm:mb-8 sm:flex sm:justify-center">
-        <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-400 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-          If you're curious about our trip and want to follow along. <a href="#" className="font-semibold text-indigo-600"><span className="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+      <main className="mx-auto has-text-centered max-w-[1960px]">
+      <section className="hero my-5 rounded-lg is-halfheight">
+        <div className="hero-head mt-5">
+        <p className="title clabel">Honeymoon</p>
+          <p className="subtitle">So... we've already got all the&nbsp;
+            <span className="clabel">stuff</span> we could ever need
+          </p>
         </div>
-      </div>
-      <div className="text-center">
-        <h1 className="text-5xl font-semibold tracking-tight text-balance text-black sm:text-7xl">Honeymoon</h1>
-        <p className="mt-8 text-lg font-medium text-pretty text-gray-200 sm:text-xl/8">
-        All contributions will go towards funding our first big trip together to relax and start our marriage off on the right foot.</p>
-        <div className="mt-10 flex items-center justify-center gap-x-6">
+        <div className="hero-body subtitle">
+          <div className="container">
+            So if you'd like to congratulate us in any way, please feel free to contribute to our
+            &nbsp;
+            <span className="clabel">honeymoon</span> fund. All we can promise in return for your
+            investment is &nbsp;<span className="clabel">lots of photos</span>
+          </div>
+        </div>
+        <div className="hero-footer subtitle">
           <Donate/>
         </div>
-        {/* RIP My progress bar */}
-        {/* <div className="overflow-hidden h-5 my-8 text-xs flex rounded-xl bg-gray-200">
-          <div
-            className="shadow-none flex flex-col text-center blackspace-nowrap text-black justify-center bg-indigo-500 transition-all duration-500"
-            style={{ width: `${progress}%` }}
-          ></div>
+      </section>
+        <div>
+          
         </div>
-        <div className="border-2 rounded-xl border-indigo-500 flex items-center justify-center text-black mb-3 w-fit mx-auto p-2 text-xl px-14 tracking-wider">
-        <span className="text-xl font-semibold inline-block text-indigo-500">
-            ${raised} / ${goal}
-        </span>
-        </div> */}
-      </div>
-    </div>
-  </div>
       </main>
-      <footer className="p-6 text-center text-black/80 sm:p-12">
-      Feel free to contact us if you have any other questions
-      </footer>
     </>
   );
 };

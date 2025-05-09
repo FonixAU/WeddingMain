@@ -16,6 +16,14 @@
 .secondary{
   background-color:#b49ccc;
   color: #F9F6EE;
+  border-color: #b49ccc;
+  border-width: 2px;
+}
+.secondary:hover{
+  background-color:#F9F6EE;
+  color: #b49ccc;
+  border-color: #b49ccc;
+  border-width: 2px;
 }
 .clabel{
   text-decoration: underline;

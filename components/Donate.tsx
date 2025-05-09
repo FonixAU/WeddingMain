@@ -11,9 +11,7 @@ export default function Donate() {
     <div>
       <button
         onClick={() => setIsOpen(true)}
-        className="rounded-xl bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-black shadow-xs 
-        hover:bg-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-      >
+        className="button is-large secondary clabel">
         Donate here!
       </button>
 
