@@ -8,17 +8,17 @@ const Navbar = () => {
       </div>
       <ul className="flex space-x-4">
         <li>
-          <Link href="/" className="hover:text-black">
+          <Link href="/" className="hover:text-[#2e333d]">
             Home
           </Link>
         </li>
         <li>
-          <Link href="/gallery" className="hover:text-black">
+          <Link href="/gallery" className="hover:text-[#2e333d]">
             Gallery
           </Link>
         </li>
         <li>
-          <Link href="/registry" className="hover:text-black">
+          <Link href="/registry" className="hover:text-[#2e333d]">
             Registry
           </Link>
         </li>

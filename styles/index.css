@@ -34,4 +34,15 @@
   max-width: 370px;
   margin: 0 auto;
 }
-
+.exit{
+  width:100%;
+  height:auto;
+}
+.exit:hover{
+  width:100%;
+  height:auto;
+  fill:#2e333d;
+}
+.circle{
+  border-radius:50%;
+}

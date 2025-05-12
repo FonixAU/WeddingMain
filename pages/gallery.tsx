@@ -53,11 +53,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         {/* This makes the page responsive */}
         <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
           {/* Whole Non-image card style, the height was adjusted manually to set the max viewport. */}
-          <div className="after:content relative mb-5 flex h-[400px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-[#96aa81]/40 px-6 pb-16 pt-64 text-center text-black shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
+          <div className="relative mb-5 flex flex-col items-center justify-end gap-4 bg-[#96aa81]/40 px-6 py-6 text-center rounded-lg text-black shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
+            <h1 className=" mb-4 mt-1 title uppercase">
               Grantiz Wedding Photos
             </h1>
-            <p className="max-w-[40ch] text-black/75 sm:max-w-[32ch]">
+            <p className="max-w-[40ch] subtitle sm:max-w-[32ch]">
               Thank you for attending our wedding. Add your favourite moments here, and look through
               the pics other guests have added
             </p>
