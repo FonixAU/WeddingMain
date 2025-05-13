@@ -27,7 +27,7 @@ export default function Donate() {
             BSB: 659000
         </span>
         <span className="flex inline-block">
-          Acc No: 775117S37
+          Acc No: 100203542
         </span>
         </div>
          {/* QR Code at the Bottom */}
