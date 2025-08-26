@@ -16,7 +16,6 @@ class MyDocument extends Document {
             content="See the details & photos from our wedding :)."
           />
           <meta property="og:title" content="The Grantiz Wedding" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
           <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet"/>
