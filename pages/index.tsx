@@ -33,13 +33,13 @@ const Home: NextPage = () => {
       <section className="hero is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Dress Code</p>
-          <p className="subtitle">Formal
+          <p className="subtitle">Classy
             <span className="
             is-family-monospace
-            has-text-weight-bold">|</span>Classy
+            has-text-weight-bold">|</span>Colourful
             <span className="
             is-family-monospace
-            has-text-weight-bold">|</span>Vibrant
+            has-text-weight-bold">|</span>Chic
           </p>
         </div>
       </section>
@@ -59,9 +59,9 @@ const Home: NextPage = () => {
         <div className="hero-body has-text-centered">
           <p className="title clabel">Ceremony</p>
           <p className="subtitle">
-            1:00PM<br/>
+            Intimate event<br/>
             <span className="has-text-weight-bold text-[#b49ccc]">
-              Venue Information
+              Venue details in your invititations
             </span>
           </p>
         </div>
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
         <div className="hero-body has-text-centered">
           <p className="title clabel">Reception</p>
           <p className="subtitle">
-            4:00PM<br/>
+            6:00PM<br/>
             <span className="has-text-weight-bold text-[#b49ccc]">
               Venue Information
             </span>
