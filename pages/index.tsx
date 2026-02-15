@@ -33,6 +33,11 @@ const Home: NextPage = () => {
       <section className="hero is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Dress Code</p>
+          <img 
+          src="dresscode.jpg"
+          alt="Visual guide for the event dress code"
+          style={{ maxWidth: '100%', height: 'auto' }} // Basic responsive styling
+          />
           <p className="subtitle">Classy
             <span className="
             is-family-monospace
