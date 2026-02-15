@@ -30,7 +30,7 @@ const Home: NextPage = () => {
       </header>
       
       <section className="my-12"/>
-      <section className="hero is-small">
+      <section className="hero is-small bg-[#efdfc6]">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Dress Code</p>
           <img 
