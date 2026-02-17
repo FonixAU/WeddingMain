@@ -20,54 +20,28 @@ const Home: NextPage = () => {
       </Head>
       <main className="mx-auto max-w-[1960px] pt-4">
       <header>
-      <p className="container flex items-center justify-center mt-5 title">
-      Save the date!</p>
+      {/* <p className="container flex items-center justify-center mt-5 title">
+      Save the date!</p> */}
         <h1 className="container flex items-center justify-center my-4 title text-7xl">
         08/03/27</h1>
         
         <p className="container flex items-center justify-center mb-3 subtitle">
         This is the official page with all the relevant information regarding our wedding.</p>
       </header>
-      
       <section className="my-12"/>
-      <section className="hero is-small bg-[#efdfc6]">
+        <section className="hero my-1 bg-[#895129]/10 rounded-lg is-small">
         <div className="hero-body has-text-centered">
-          <p className="title clabel">Dress Code</p>
-          <img 
-          src="dresscode.jpg"
-          alt="Visual guide for the event dress code"
-          style={{ maxWidth: '100%', height: 'auto' }} // Basic responsive styling
-          />
-          <p className="subtitle">Classy
-            <span className="
-            is-family-monospace
-            has-text-weight-bold">|</span>Colourful
-            <span className="
-            is-family-monospace
-            has-text-weight-bold">|</span>Chic
-          </p>
-        </div>
-      </section>
-      <section className="hero my-1 bg-[#895129]/10 rounded-lg is-small">
-        <div className="hero-body has-text-centered">
-          <p className="title clabel">Child Free</p>
+          <p className="title clabel">Reception</p>
           <p className="subtitle">
-            No distraction from what we're
-            truly doing this for.<br/>
-            <span className="has-text-weight-bold text-[#b49ccc]">
-              Getting wasted.
-            </span>
+            367 Elgar Rd. 3:30pm Arrival
           </p>
         </div>
       </section>
-        <section className="hero is-small">
+        <section className="hero my-1 is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Ceremony</p>
           <p className="subtitle">
-            Intimate event<br/>
-            <span className="has-text-weight-bold text-[#b49ccc]">
-              Venue details in your invititations
-            </span>
+            Commence 4:00pm<br/>
           </p>
         </div>
       </section>
@@ -75,11 +49,26 @@ const Home: NextPage = () => {
         <div className="hero-body has-text-centered">
           <p className="title clabel">Reception</p>
           <p className="subtitle">
-            6:00PM<br/>
-            <span className="has-text-weight-bold text-[#b49ccc]">
-              Venue Information
-            </span>
+            Imediate Start. Ends 10:30pm
           </p>
+        </div>
+      </section>
+      <section className="hero is-small">
+        <div className="hero-body has-text-centered">
+        <p className="title clabel">Child Free</p>
+          <p className="subtitle">
+            This will be an 18+ event.     
+          </p>
+        </div>
+      </section>
+      <section className="hero my-1 bg-[#895129]/10 rounded-lg is-small">
+        <div className="hero-body has-text-centered flex flex-col items-center">
+          <p className="title clabel">Dress Code</p>
+          <img 
+          src="dresscode.png"
+          alt="Visual guide for the event dress code"
+          style={{ maxWidth: '50%', height: 'auto'}} // Basic responsive styling
+          />
         </div>
       </section>
       </main>
