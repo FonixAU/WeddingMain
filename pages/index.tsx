@@ -23,17 +23,22 @@ const Home: NextPage = () => {
       {/* <p className="container flex items-center justify-center mt-5 title">
       Save the date!</p> */}
         <h1 className="container flex items-center justify-center my-4 title text-7xl">
-        08/03/27</h1>
-        
+        30/01/27</h1>
         <p className="container flex items-center justify-center mb-3 subtitle">
         This is the official page with all the relevant information regarding our wedding.</p>
       </header>
       <section className="my-12"/>
-        <section className="hero my-1 bg-[#895129]/10 rounded-lg is-small">
+        <section className="hero my-1 bg-[#96aa81]/10 rounded-lg is-small">
         <div className="hero-body has-text-centered">
-          <p className="title clabel">Reception</p>
+          <p className="title clabel">Venue</p>
           <p className="subtitle">
             367 Elgar Rd. 3:30pm Arrival
+          </p>
+          <p>
+            Plenty of parking available on Blenheim Street.
+          </p>
+          <p>
+            Lots of public transport options.
           </p>
         </div>
       </section>
@@ -45,7 +50,7 @@ const Home: NextPage = () => {
           </p>
         </div>
       </section>
-        <section className="hero my-1 bg-[#895129]/10 rounded-lg is-small">
+        <section className="hero my-1 bg-[#96aa81]/10 rounded-lg is-small">
         <div className="hero-body has-text-centered">
           <p className="title clabel">Reception</p>
           <p className="subtitle">
@@ -61,13 +66,13 @@ const Home: NextPage = () => {
           </p>
         </div>
       </section>
-      <section className="hero my-1 bg-[#895129]/10 rounded-lg is-small">
+      <section className="hero my-1 bg-[#96aa81]/10 rounded-lg is-small">
         <div className="hero-body has-text-centered flex flex-col items-center">
           <p className="title clabel">Dress Code</p>
           <img 
           src="dresscode.png"
           alt="Visual guide for the event dress code"
-          style={{ maxWidth: '50%', height: 'auto'}} // Basic responsive styling
+          style={{ maxWidth: '50%', height: 'auto', border: '5px solid #96aa81' }} // Basic responsive styling
           />
         </div>
       </section>

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-            <section className="hero bg-[#b49ccc] font-bold text-[#F9F6EE]">
+            <section className="hero bg-[#96aa81] font-bold text-[#F9F6EE]">
                 <div className="hero-body">
                     <div className="container footer-extra">
                       <p className="title text-[#F9F6EE] mb-2">Any questions?</p>

@@ -1,6 +1,6 @@
 export default function Exit() {
     return (
-<svg className="exit" fill="#b49ccc" width="1000px" height="1000px" viewBox="0 0 650 524" version="1.1" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+<svg className="exit" fill="#e45656" width="1000px" height="1000px" viewBox="0 0 650 524" version="1.1" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 
 <g id="exit-from-window">
 
