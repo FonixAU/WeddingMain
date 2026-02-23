@@ -36,7 +36,7 @@ export default function Upload() {
       <button
         onClick={() => document.getElementById('fileInput')?.click()}
         disabled={uploading}
-        className="pointer z-10 rounded-lg border border-black/80 bg-black/80 px-3 py-3 text-md font-semibold text-[#F9F6EE] transition clabel hover:bg-[#b49ccc] hover: hover:text-[#F9F6EE] hover:border-[#b49ccc] disabled:bg-[#ff746c]"
+        className="pointer z-10 rounded-lg border border-black/80 bg-black/80 px-3 py-3 text-md font-semibold text-[#F9F6EE] transition clabel hover:bg-[#96aa81] hover: hover:text-[#F9F6EE] hover:border-[#F9F6EE] disabled:bg-[#ff746c]"
       >
         {uploading ? 'Uploading...' : 'Select & Upload Files'}
       </button>

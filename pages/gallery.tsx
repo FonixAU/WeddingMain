@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
 import Modal from "../components/Modal";
-import Upload from "../components/Upload";
+import GalleryTitle from "../components/GalleryTitle";
 import cloudinary from "../utils/cloudinary";
 import getBase64ImageUrl from "../utils/generateBlurPlaceholder";
 import type { ImageProps } from "../utils/types";
@@ -52,17 +52,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         )}
         {/* This makes the page responsive */}
         <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
-          {/* Whole Non-image card style, the height was adjusted manually to set the max viewport. */}
-          <div className="relative mb-5 flex flex-col items-center justify-end gap-4 bg-[#96aa81]/40 px-6 py-6 text-center rounded-lg text-black shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <h1 className=" mb-4 mt-1 title uppercase">
-              Grantiz Wedding Photos
-            </h1>
-            <p className="max-w-[40ch] subtitle sm:max-w-[32ch]">
-              Thank you for attending our wedding. Add your favourite moments here, and look through
-              the pics other guests have added
-            </p>
-            <Upload/>
-          </div>
+          <GalleryTitle/>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
               key={id}
